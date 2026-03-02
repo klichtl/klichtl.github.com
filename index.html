@@ -2,68 +2,92 @@
 <html lang="de">
 <head>
   <meta charset="utf-8">
-  <title>Kevin's Portfolio</title>
+  <title>Kevin's Portfolio Slides</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Reveal.js CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.0/dist/theme/white.css" id="theme">
+
   <style>
-    body { font-family: Arial, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; background: #f5f5f5; }
-    section { background: white; margin-bottom: 2rem; padding: 1.5rem; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    h1, h2, h3 { color: #2c3e50; margin-bottom: 0.5rem; }
-    p, li { margin-bottom: 0.5rem; }
-    ul { margin-left: 1.5rem; }
+    h1, h2 { margin-bottom: 1rem; }
+    p, li { font-size: 1.2rem; }
   </style>
 </head>
 <body>
 
-  <section>
-    <h1>👋 Servus, I'm Kevin!</h1>
-    <p>🎯 Software Engineer | Web Developer | Graphical Designer | Linux Lover (Arch btw 😏)</p>
-  </section>
+  <div class="reveal">
+    <div class="slides">
 
-  <section>
-    <h2>📝 About Me</h2>
-    <p>Hi, i bin Kevin, Software Engineer, Web Developer, Graphical Designer und Linux-Lover. Hier a bissl Überblick über mich:</p>
-  </section>
+      <!-- Slide 1: Intro -->
+      <section>
+        <h1>👋 Servus, I'm Kevin!</h1>
+        <p>🎯 Software Engineer | Web Developer | Graphical Designer | Linux Lover (Arch btw 😏)</p>
+      </section>
 
-  <section>
-    <h2>💼 Profession</h2>
-    <ul>
-      <li>Software Engineer</li>
-      <li>Web Developer</li>
-      <li>Graphical Designer</li>
-      <li>Linux Administrator</li>
-    </ul>
-  </section>
+      <!-- Slide 2: About Me -->
+      <section>
+        <h2>📝 About Me</h2>
+        <p>Hi, i bin Kevin, Software Engineer, Web Developer, Graphical Designer und Linux-Lover. Hier a bissl Überblick über mich:</p>
+      </section>
 
-  <section>
-    <h2>🌐 Languages</h2>
-    <ul>
-      <li>German</li>
-      <li>English</li>
-      <li>PHP ;)</li>
-    </ul>
-  </section>
+      <!-- Slide 3: Profession -->
+      <section>
+        <h2>💼 Profession</h2>
+        <ul>
+          <li>Software Engineer</li>
+          <li>Web Developer</li>
+          <li>Graphical Designer</li>
+          <li>Linux Administrator</li>
+        </ul>
+      </section>
 
-  <section>
-    <h2>💻 Coding Languages</h2>
-    <ul>
-      <li>C</li>
-      <li>Java</li>
-      <li>HTML</li>
-      <li>JavaScript</li>
-      <li>CSS</li>
-      <li>PHP</li>
-    </ul>
-  </section>
+      <!-- Slide 4: Languages -->
+      <section>
+        <h2>🌐 Languages</h2>
+        <ul>
+          <li>German</li>
+          <li>English</li>
+          <li>PHP ;)</li>
+        </ul>
+      </section>
 
-  <section>
-    <h2>🎯 Hobbies</h2>
-    <ul>
-      <li>Tennis 🎾</li>
-      <li>Coding 💻</li>
-      <li>Learning Guitar 🎸</li>
-      <li>Gaming 🎮</li>
-    </ul>
-  </section>
+      <!-- Slide 5: Coding Languages -->
+      <section>
+        <h2>💻 Coding Languages</h2>
+        <ul>
+          <li>C</li>
+          <li>Java</li>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
+          <li>PHP</li>
+        </ul>
+      </section>
+
+      <!-- Slide 6: Hobbies -->
+      <section>
+        <h2>🎯 Hobbies</h2>
+        <ul>
+          <li>Tennis 🎾</li>
+          <li>Coding 💻</li>
+          <li>Learning Guitar 🎸</li>
+          <li>Gaming 🎮</li>
+        </ul>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Reveal.js -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.0/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      transition: 'slide'
+    });
+  </script>
 
 </body>
 </html>
